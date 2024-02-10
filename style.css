@@ -8,7 +8,9 @@ main{
     width: 600px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 200px;
+    margin-top: 200px;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 25px;
 }
 
 h1{
@@ -21,6 +23,7 @@ button{
     margin: 5px;
     border-radius: 5px;
     border: none;
+    font-size: 3rem;
 }
 p{
     font-size: 1.25rem;
@@ -33,4 +36,32 @@ p{
 
 .score{
     padding: 30px;
+}
+#rock{
+    background-color: rgb(255, 72, 72);
+}
+#paper{
+    background-color: rgb(69, 69, 255);
+}
+#scissors{
+    background-color: rgb(81, 255, 81);
+}
+
+#rock:hover{
+    background-color: rgb(255, 149, 149);
+}
+#paper:hover{
+    background-color: rgb(143, 143, 255);
+}
+#scissors:hover{
+    background-color: rgb(163, 255, 163);
+}
+#rock:active{
+    background-color: rgb(255, 72, 72);
+}
+#paper:active{
+    background-color: rgb(69, 69, 255);
+}
+#scissors:active{
+    background-color: rgb(81, 255, 81);
 }
